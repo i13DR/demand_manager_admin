@@ -1,1 +1,4 @@
 demand_manager_admin/secret.json
+*.pyc
+static/admin/*
+

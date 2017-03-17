@@ -15,7 +15,7 @@ SECRET_KEY = secrets['secretKey']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['131.159.52.146', '127.0.0.1']
+ALLOWED_HOSTS = ['www.admindata.i13dr.de','admindata.i13dr.de' , '127.0.0.1', '0.0.0.0']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
