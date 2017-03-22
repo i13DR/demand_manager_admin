@@ -15,7 +15,7 @@ SECRET_KEY = secrets['secretKey']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.admindata.i13dr.de','admindata.i13dr.de' , '127.0.0.1', '0.0.0.0']
+ALLOWED_HOSTS = ['www.admindata.i13dr.de', 'admindata.i13dr.de', '127.0.0.1', '0.0.0.0']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -24,6 +24,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'devices.apps.DevicesConfig',
 ]
 
 MIDDLEWARE = [
