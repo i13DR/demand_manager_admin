@@ -17,7 +17,7 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <user-name>epezhman</user-name>
       <user-password>dfc7dfcbdfd9dfdedfcfdfd8</user-password>
-      <resolve-scope>dm:public,epezhman</resolve-scope>
+      <resolve-scope>dm:epezhman,public</resolve-scope>
     </data-source>
   </component>
 </project>
