@@ -13,7 +13,7 @@ from crash.models import Crash
 class CrashAdmin(admin.ModelAdmin):
     search_fields = ['device_id', 'error']
     readonly_fields = ['device_id', 'error_prettified', 'created']
-    list_display = ['device_id', 'created']
+    list_display = ['device_id', 'created', 'error_prettified']
     exclude = ('error',)
 
     def has_add_permission(self, request):

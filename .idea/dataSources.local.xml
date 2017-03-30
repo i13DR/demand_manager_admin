@@ -8,7 +8,9 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>epezhman</user-name>
+      <introspection-schemas>dm:public</introspection-schemas>
       <resolve-scope>dm:epezhman,public</resolve-scope>
+      <unqualified-resolve-schemas>dm:epezhman,public</unqualified-resolve-schemas>
     </data-source>
     <data-source name="Django default" uuid="721f2236-522b-4c55-a256-f9f2724bd178">
       <database-info product="PostgreSQL" version="9.5.6" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
@@ -16,8 +18,9 @@
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <user-name>epezhman</user-name>
-      <user-password>dfc7dfcbdfd9dfdedfcfdfd8</user-password>
+      <introspection-schemas>dm:public</introspection-schemas>
       <resolve-scope>dm:epezhman,public</resolve-scope>
+      <unqualified-resolve-schemas>dm:epezhman,public</unqualified-resolve-schemas>
     </data-source>
   </component>
 </project>
